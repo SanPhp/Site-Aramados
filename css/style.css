@@ -1,0 +1,516 @@
+@font-face {
+    font-family: 'unispace_bold';
+    src: url('fonts/unispace_bold.eot');
+    src: url('fonts/unispace_bold.eot?#iefix') format('embedded-opentype'),
+         url('fonts/unispace_bold.woff') format('woff'),
+         url('fonts/unispace_bold.ttf') format('truetype'),
+         url('fonts/unispace_bold.svg#unispace_bold') format('svg');
+    /*font-weight: 300;
+    font-style: normal;*/
+}
+
+body {
+	overflow-x: hidden;
+}
+* {
+	margin: 0px;
+	padding: 0px;
+	font-size: small;
+	font-family: unispace_bold, sans-serif;
+}
+* img {
+	border: none;
+}
+
+/*body {
+	background: url(../estru/bg_header.png) no-repeat -120px 0px #F3F3F3;
+}*/
+/*------------------------ INDEX -------------------------*/
+section#header_envolve {
+	width: 100%;
+	height: 240px;
+	background: url(../estru/bg_header.png) no-repeat center center;
+}
+header {
+	width: 1000px;
+	height: 230px;
+	margin: 0px auto 0px auto;
+}
+header img {
+	margin: 40px 0px 0px 0px;
+}
+nav {
+	width: 650px;
+	height: 33px;
+	background: url(../estru/bg_nav.png) no-repeat bottom center;
+	float: right;
+	margin: -70px -30px 0px 0px;
+}
+nav ul {
+	list-style: none;
+	padding: 0px 0px 0px 60px;
+}
+nav ul li {
+	display: inline;
+}
+nav ul li a  {
+	list-style: none;
+	display: inline;
+	color: #4D4D4D;
+	text-decoration: none;
+	float: left;
+	margin: 0px 16px 0px 0px;
+	font-size: 13px;
+}
+nav ul li a:hover {
+	color: #B20000;
+}
+nav ul li a.active {
+	color: #B20000;
+}
+
+section#all {
+	width: 1000px;
+	height: auto;
+	margin: 70px auto 0px auto;
+}
+
+article.somos_uma {
+	width: 635px;
+	margin: 50px 0px 0px 0px;
+	/*border: 1px solid black;*/
+	float: left;
+}
+article.somos_uma p {
+	font-size: 10px;
+	line-height: 18px;
+}
+article.somos_uma p:first-letter {
+	color: #B20000;
+	font-size: 17px;
+	margin: 0px 2px 0px 0px;
+}
+
+section.banner {
+	width: 350px;
+	height: 251px;
+	/*border: 1px solid black;*/
+	margin: -75px 0px 0px 650px;
+}
+
+.grenagen_imagem {
+	margin: -10px 0px 0px -70px;
+}
+
+article.nossos_servicos {
+	width: 550px;
+	float: right;
+	margin: 90px 0px 0px 0px;
+}
+article.nossos_servicos p {
+	font-size: 10px;
+	line-height: 18px;
+	text-align: right;
+}
+
+article.nossos_servicos p:first-letter {
+	color: #B20000;
+	font-size: 17px;
+	margin: 0px 2px 0px 0px;
+}
+
+section.blocks {
+	width: 1000px;
+	height: 235px;
+	margin: 40px auto 0px auto;
+	text-align: center;
+	background: url(../estru/bg_blocks.png) no-repeat bottom center;
+}
+
+section.blocks h1 {
+	color: #B20000;
+}
+
+/*------------------------------ /INDEX ---------------------------------*/
+/*///////////////////////////////////////////////////////////////////////*/
+
+
+/*------------------------------ EMPRESA ---------------------------------*/
+section#empresa {
+	width: 1000px;
+	margin: 0px auto 0px auto;
+	text-align: center;
+	background: url(../estru/linha_top_left.png) no-repeat -160px -20px;
+	z-index: 9;
+}
+
+section#empresa h2 {
+	width: 250px;
+	color: #B20000;
+	font-size: 24px;
+	margin: -30px auto 0px auto;
+}
+section#empresa p {
+	line-height: 23px;
+	margin: 40px 0px 30px 0px;
+}
+section#empresa p:first-letter {
+	color: #B20000;
+	font-size: 20px;
+}
+section#empresa hr {
+	width: 600px;
+	float: right;
+	margin: 0px -150px 0px 0px;
+	border: 1px solid #C6A2A2;
+}
+section#empresa span {
+	width: 355px;
+	height: 138px;
+	background: url(../estru/linha_empresa.png) no-repeat top center;
+	position: relative;
+	right: 110px;
+	display: block;
+}
+
+/*------------------------------ /EMPRESA ---------------------------------*/
+/*//////////////////////////////////////////////////////////////////////*/
+
+
+/*------------------------------ SERVICOS ---------------------------------*/
+
+section#servicos {
+	width: 1000px;
+	margin: 0px auto 0px auto;
+	text-align: center;
+	background: url(../estru/linha_top_left.png) no-repeat -160px -20px;
+	z-index: 9;
+}
+
+section#servicos h2 {
+	width: 190px;
+	color: #B20000;
+	font-size: 24px;
+	margin: -30px auto 0px auto;
+}
+section#servicos p {
+	width: 850px;
+	line-height: 23px;
+	margin: 40px auto 70px auto;
+}
+
+section#servicos ul {
+	list-style: none;
+	margin: 0px 0px 60px 0px;
+}
+section#servicos ul li {
+	list-style: none;
+	display: inline;
+	color: #B20000;
+	font-size: 11px;
+	font-weight: bolder;
+	margin: 0px 20px 0px 20px;
+}
+
+section#servicos  a img {
+	margin: 0px 5px 10px 5px;
+	border: 1px solid #F00;
+}
+section#servicos p:first-letter {
+	color: #B20000;
+	font-size: 20px;
+}
+
+
+
+
+
+/*------------------------------ /SERVICOS ---------------------------------*/
+/*//////////////////////////////////////////////////////////////////////////*/
+
+
+/*------------------------------ VIDEOS ---------------------------------*/
+
+section#videos {
+	width: 1000px;
+	margin: 0px auto 30px auto;
+	text-align: center;
+	background: url(../estru/linha_top_left.png) no-repeat -160px -20px;
+	z-index: 9;
+}
+section#videos:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	height: 0px;
+	overflow: hidden;
+}
+
+section#videos h2 {
+	width: 250px;
+	color: #B20000;
+	font-size: 24px;
+	margin: -30px auto 0px auto;
+}
+section#videos p {
+	width: 500px;
+	line-height: 23px;
+	margin: 40px auto 100px auto;
+}
+section#videos p:first-letter {
+	color: #B20000;
+	font-size: 18px;
+}
+section#videos figure {
+	width: 201px;
+	height: 154px;
+	overflow: hidden;
+	float: left;
+	margin: 0px 0px 40px 35px;
+	border: 1px solid red;
+}
+
+/*------------------------------ /VIDEOS ---------------------------------*/
+/*//////////////////////////////////////////////////////////////////////////*/
+
+/*------------------------------ PARCERIAS ---------------------------------*/
+section#parceiros {
+	width: 1000px;
+	margin: 0px auto 30px auto;
+	text-align: center;
+	background: url(../estru/linha_top_left.png) no-repeat -160px -20px;
+	z-index: 9;
+}
+section#parceiros:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	height: 0px;
+	overflow: hidden;
+}
+section#parceiros h2 {
+	width: 170px;
+	color: #B20000;
+	font-size: 24px;
+	margin: -30px auto 0px auto;
+	text-align: center;
+}
+section#parceiros p {
+	width: 410px;
+	line-height: 23px;
+	margin: 40px auto 30px auto;
+	text-align: center;
+}
+section#parceiros p:first-letter {
+	color: #B20000;
+	font-size: 18px;
+}
+section#parceiros figure.parceiros {
+	float: left;
+	margin: 0px 0px 10px 60px;
+}
+
+/*------------------------------ /PARCERIAS ---------------------------------*/
+/*//////////////////////////////////////////////////////////////////////////*/
+
+
+/*------------------------------ CONTATO---------------------------------*/
+
+section#contato {
+	width: 1000px;
+	height: 850px;
+	margin: 0px auto 30px auto;
+	background: url(../estru/linha_bg_contato.png) no-repeat -100px -20px;
+	z-index: 9;
+}
+
+section#contato h2 {
+	width: 170px;
+	color: #B20000;
+	font-size: 20px;
+	margin: -30px auto 0px auto;
+	text-align: center;
+}
+section#contato h3 {
+	width: 170px;
+	color: #B20000;
+	font-size: 20px;
+	margin: 100px auto 60px auto;
+	text-align: center;
+}
+section#contato p {
+	width: 700px;
+	line-height: 23px;
+	margin: 20px auto 30px auto;
+	text-align: center;
+	background: url(../estru/linha_paragra_contato.png) no-repeat right bottom;
+}
+section#contato p:first-letter {
+	color: #B20000;
+	font-size: 18px;
+}
+
+section#contato div.form_contato {
+	width: 750px;
+	height: 334px;
+	background: url(../estru/linha_bg_formulario.png) no-repeat center center;
+	margin: 0px auto 0px auto;
+}
+form {
+	padding: 40px 0px 0px 0px;
+}
+
+form input {
+	display: block;
+	margin: 0px 0px 20px 55px;
+	height: 40px;
+	width: 318px;
+	padding: 0px 0px 0px 10px;
+	background-color: #fff;
+}
+form input:first-letter {
+	color: #B20000;
+}
+form input[type="image"] {
+	float: right;
+	width: 120px;
+	height: 41px;
+	margin: -60px 30px 0px 0px;
+}
+
+form textarea {
+	width: 310px;
+	height: 180px;
+	float: right;
+	margin: -256px 37px 0px 0px;
+	padding: 10px 0px 0px 10px;
+	box-sizing: border-box;
+}
+
+section#contato div.localizacao {
+	width: 750px;
+	height: 236px;
+	background: url(../estru/linha_bg_localizacao.png) no-repeat center center;
+	margin: 0px auto 0px auto;
+}
+
+div.localizacao article.end_fone_contato {
+	width: 300px;
+	height: 230px;
+	border: 1px solid transparent;
+	text-align: left;
+}
+
+div.localizacao article.end_fone_contato h4 {
+	color: #B20000;
+	font-size: 10px;
+	margin: 35px 0px 0px 50px;
+}
+div.localizacao article.end_fone_contato span {
+	display: block;
+	font-size: 10px;
+	margin: 5px 0px 0px 50px;
+}
+div.localizacao div.mapa {
+	width: 366px;
+	height: 130px;
+	border: 1px solid red;
+	margin: -190px 50px 0px 0px;
+	float: right;
+	
+}
+label.error {
+	position:absolute;
+	font-size: 8px;
+	margin: -50px 0px 30px 0px;
+	top: 600px;
+	display:inline;
+	height: 30px;
+	width: 200px;
+	float: left;
+	
+}
+
+/*------------------------------ /CONTATO ---------------------------------*/
+/*//////////////////////////////////////////////////////////////////////////*/
+
+/*----------------------------- FOOTER ---------------------------------*/
+
+footer {
+	width: 100%;
+	height: 310px;
+	/*border: 1px solid black;*/
+	margin: 0px auto 0px auto;
+	background: url(../estru/bg_footer.png) no-repeat center center;
+}
+footer section.footer_conteudo {
+	width: 1000px;
+	height: 309px;
+	margin: 0px auto 0px auto;
+	/*border: 1px solid green;*/
+}
+section.footer_conteudo .footer_fones {
+	width: 280px;
+	height: 300px;
+	/*border: 1px solid black;*/
+	float: left;
+}
+section.footer_conteudo .footer_fones h5 {
+	color: #B20000;
+	margin: 73px 0px 30px 13px;
+	font-size: 11px;
+}
+
+section.footer_conteudo .footer_fones h6 {
+	color: #B20000;
+	margin: 25px 0px 32px 13px;
+	font-size: 11px;
+}
+section.footer_conteudo .footer_fones p {
+	margin: 0px 0px 6px 13px;
+	font-size: 11px;
+}
+
+/**/
+section.footer_conteudo .footer_servicos {
+	width: 300px;
+	height: 250px;
+	/*border: 1px solid black;*/
+	float: left;
+	margin: 0px 0px 0px 87px;
+}
+
+section.footer_conteudo .footer_servicos h6 {
+	color: #B20000;
+	margin: 75px 0px 32px 13px;
+	font-size: 11px;
+}
+section.footer_conteudo .footer_servicos p {
+	margin: 0px 0px 6px 13px;
+	font-size: 11px;
+}
+
+section.footer_conteudo .footer_logo {
+	width: 325px;
+	height: 200px;
+	/*border: 1px solid red;*/
+	float: left;
+	text-align: right;
+}
+section.footer_conteudo .footer_logo img[alt="Logo KS Manutenção"] {
+	margin: 100px 20px 0px 0px;
+}
+section.footer_conteudo .footer_logo img[alt="Facebook"] {
+	margin: 0px 20px 0px 0px;
+}
+
+section.footer_conteudo .footer_direitos {
+	width: 580px;
+	/*border: 1px solid green;*/
+	float: right;
+	margin: 20px 0px 0px 0px;
+	font-size: 11px;
+}
+
